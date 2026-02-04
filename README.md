@@ -1171,8 +1171,10 @@ $ chmod 777 argshift.sh
 
 ## OUTPUT
 $ ./argshift.sh 1 2 3
+<img width="656" height="90" alt="image" src="https://github.com/user-attachments/assets/006e3746-3597-4bba-9432-aa8611b3c63d" />
+
  
- cat argshift1.sh
+ cat > argshift1.sh
 ```bash
  #/bin/bash 
  # store arguments in a special array 
@@ -1188,8 +1190,10 @@ done
 $ chmod 777 argshift.sh
 ## OUTPUT
 $ ./argshift.sh 1 2 3
- 
-cat argshift.sh
+ <img width="656" height="90" alt="image" src="https://github.com/user-attachments/assets/b98ca80e-111b-47ae-bca4-6ee1e147dcaa" />
+
+
+cat > argshift.sh
 ```bash
 #!/bin/bash 
 set -x 
@@ -1201,7 +1205,8 @@ set +x
 ```
 ## OUTPUT
  ./argshift.sh 1 2 3
- 
+ <img width="656" height="330" alt="image" src="https://github.com/user-attachments/assets/d130b65d-826e-48fe-a663-623f25ffe118" />
+
  
 cat > nc.awk
 ```bash
