@@ -1,4 +1,4 @@
-# OS-Linux-commands-Shell-scripting
+<img width="633" height="134" alt="image" src="https://github.com/user-attachments/assets/505a4511-73e9-4a5e-b4be-9cf07fedfbfd" /><img width="633" height="134" alt="image" src="https://github.com/user-attachments/assets/505a4511-73e9-4a5e-b4be-9cf07fedfbfd" /># OS-Linux-commands-Shell-scripting
 Operating systems Lab exercise
 # Linux commands-Shell scripting
 Linux commands-Shell scripting
@@ -929,7 +929,11 @@ done
  ```
  
 $ chmod 755 forin2.sh
- 
+$ ./forin2.sh
+
+ ## output:
+ <img width="633" height="134" alt="image" src="https://github.com/user-attachments/assets/409e7fe8-94ae-4ee2-8e0f-eae54ed0c8f0" />
+
 cat forin2.sh 
 ```bash
 \#!/bin/bash
@@ -942,7 +946,9 @@ done
 $ chmod 755 forin2.sh
  
 $ ./forin2.sh 
- 
+## output:
+<img width="633" height="134" alt="image" src="https://github.com/user-attachments/assets/3226afca-47d8-4f6e-9101-f083d7470cf3" />
+
 cat forin3.sh 
 ```bash
 \#!/bin/bash
