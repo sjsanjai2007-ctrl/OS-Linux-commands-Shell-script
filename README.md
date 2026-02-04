@@ -333,7 +333,8 @@ sed -n -e '2,/Joe/p' file23
 sed -n -e '/tom/,/Joe/p' file23
 ## OUTPUT
 ```
-sed -n -e '/tom/,/Joe/p' file23
+1002 | tom |  5000 | Admin
+1003 | Joe |  7000 | Developer
 ```
 seq 10 
 ## OUTPUT
@@ -958,8 +959,11 @@ do
 echo "word:$test"
 done
 ```
+$ chmod 755 forin3.sh
 $ ./forin3.sh 
- 
+ ## output:
+ <img width="639" height="204" alt="image" src="https://github.com/user-attachments/assets/86896796-56a8-4c68-bf96-3a59fe0b4de0" />
+
 cat forin1.sh 
 ```bash
 #!/bin/bash
