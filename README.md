@@ -1078,8 +1078,9 @@ $ chmod 755 forbreak.sh
  
 $ ./forbreak.sh 
 ## OUTPUT
+ <img width="656" height="78" alt="image" src="https://github.com/user-attachments/assets/bab79c6c-e275-47ba-b486-1e8bc0773a2b" />
  
-cat forbreak.sh 
+cat > forbreak.sh 
 ```bash
 #!/bin/bash
 # breaking out of a for loop
@@ -1099,8 +1100,10 @@ $ chmod 755 forcontinue.sh
  
 $ ./forcontinue.sh 
 ## OUTPUT
- 
-cat exread.sh 
+ <img width="656" height="115" alt="image" src="https://github.com/user-attachments/assets/8bba22c4-64e9-459d-a759-4636cd9915e2" />
+
+
+cat > exread.sh 
 ```bash
 #!/bin/bash
 # testing the read command
@@ -1123,14 +1126,14 @@ read -p "Enter your name: " name
 echo "Hello $name, welcome to my program. “
 ``` 
 $ chmod 755 exread1.sh 
+$ ./exread1.sh 
 
 ## OUTPUT
+<img width="653" height="70" alt="image" src="https://github.com/user-attachments/assets/904a6359-f69a-4030-a0af-4a9404b1eae4" />
 
 
-
-$ ./exread1.sh 
  
-cat funcex.sh
+cat > funcex.sh
 ```bash
 #!/bin/bash
 # trying to access script parameters inside a function
@@ -1147,12 +1150,16 @@ fi
 ```
 ## OUTPUT
  ./funcex.sh 
+<img width="653" height="49" alt="image" src="https://github.com/user-attachments/assets/94684c33-174e-436f-9e15-de977e3002b5" />
+
 
  
  ./funcex.sh 1 2
+<img width="653" height="49" alt="image" src="https://github.com/user-attachments/assets/0543d9f8-24e6-4851-a0c9-1c5152b400fa" />
+
 
  
-cat argshift.sh
+cat > argshift.sh
 ```bash
 #!/bin/bash 
  while (( "$#" )); do 
