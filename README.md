@@ -1237,6 +1237,7 @@ ubcdfghj
 ```
 awk -f nc.awk data.dat
 ## OUTPUT 
+<img width="654" height="315" alt="image" src="https://github.com/user-attachments/assets/b19c1410-1002-4743-b06f-165e0136bebd" />
  
 cat > palindrome.sh
 ```bash
@@ -1263,7 +1264,12 @@ else
 	echo "Number is NOT palindrome"
 fi
 ```
+$ chmod 777 palindrome.sh
+$ ./palindrome
+
 ## OUTPUT 
+
+<img width="655" height="93" alt="image" src="https://github.com/user-attachments/assets/25cd51b4-878f-43bc-b6b4-dc08e5ee0c57" />
 
 
 # RESULT:
