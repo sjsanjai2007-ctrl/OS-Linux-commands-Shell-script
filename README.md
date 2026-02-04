@@ -1,4 +1,4 @@
-# OS-Linux-commands-Shell-scripting
+,# OS-Linux-commands-Shell-scripting
 Operating systems Lab exercise
 # Linux commands-Shell scripting
 Linux commands-Shell scripting
@@ -959,7 +959,7 @@ do
 echo "word:$test"
 done
 ```
-$ chmod 755 forin3.sh
+$ chmod > 755 forin3.sh
 $ ./forin3.sh 
  ## output:
  <img width="639" height="204" alt="image" src="https://github.com/user-attachments/assets/86896796-56a8-4c68-bf96-3a59fe0b4de0" />
@@ -974,9 +974,12 @@ echo The next state is $test
 done
 ```
 $ chmod 755 forin1.sh
+$ ./forin1.sh
 
 ## OUTPUT
-cat forinfile.sh 
+<img width="637" height="161" alt="image" src="https://github.com/user-attachments/assets/59324ddb-bafb-424f-bea8-f9c6238cbf29" />
+
+cat > forinfile.sh 
 ```bash
 #!/bin/bash
 # reading values from a file
@@ -987,7 +990,7 @@ echo "Visit beautiful $file“
 done
 ```
 $ chmod 777 forinfile.sh
-$ cat cities
+$ cat > cities
 Hyderabad
 Alampur
 Basara
@@ -996,10 +999,16 @@ Adilabad
 Bhadrachalam
 Khammam
 
+$ chmod 777 cities
+
+$ ./cities
+
 ## OUTPUT
 
+<img width="636" height="178" alt="image" src="https://github.com/user-attachments/assets/35ff652b-a692-4657-9d76-234d7d5d06b7" />
 
-cat forctype.sh 
+
+cat > forctype.sh 
 ```bash
 #!/bin/bash
 # testing the C-style for loop
@@ -1011,8 +1020,9 @@ done
 $ chmod 755 forctype.sh
 $ ./forctype.sh 
 ## OUTPUT
+<img width="626" height="138" alt="image" src="https://github.com/user-attachments/assets/7f7c2fc1-fb12-417c-bccc-7cb83a46dad2" />
 
-cat forctype1.sh 
+cat > forctype1.sh 
 ```bash
 #!/bin/bash
 # multiple variables
@@ -1022,10 +1032,12 @@ echo "$a - $b"
 done
 ```
 $ chmod 755 forctype.sh
-$ ./forctype1.sh 
+$ ./forctype.sh 
 ## OUTPUT
+<img width="626" height="138" alt="image" src="https://github.com/user-attachments/assets/1076a656-e81c-4ce0-8ecf-06f0eabf0270" />
 
-cat fornested1.sh 
+
+cat > fornested1.sh 
 ```bash
 #!/bin/bash
 # nesting for loops
@@ -1043,8 +1055,10 @@ $ chmod 755 fornested1.sh
 $ ./fornested1.sh 
  ## OUTPUT
 
+<img width="629" height="288" alt="image" src="https://github.com/user-attachments/assets/0fb8dc58-0fff-450d-aac2-8c5e424d87c5" />
+
  
-cat forbreak.sh 
+cat > forbreak.sh 
 ```bash
 #!/bin/bash
 # breaking out of a for loop
@@ -1058,11 +1072,12 @@ echo "Iteration number: $var1"
 done
 echo "The for loop is completed“
 ```
-## OUTPUT
+
 
 $ chmod 755 forbreak.sh
  
 $ ./forbreak.sh 
+## OUTPUT
  
 cat forbreak.sh 
 ```bash
