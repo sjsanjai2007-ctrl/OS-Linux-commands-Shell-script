@@ -24,17 +24,18 @@ Testing the commands for the desired output.
 ### Create the following files file1, file2 as follows:
 cat > file1
 ```
-Sanjai.s.j
-jayalakshmi.s
-saravan.d
+ajay
+arya
+sanjai
+surya
 ^d
 ```
 cat > file2
 ```
-pooja.s.j
-sri
-mahalakshmi
-rani
+ajay
+arya
+sanjai
+surya
 ^d
 ```
 ### Display the content of the files
