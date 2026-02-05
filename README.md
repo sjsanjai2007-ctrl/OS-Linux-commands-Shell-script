@@ -32,10 +32,10 @@ surya
 ```
 cat > file2
 ```
-ajay
-arya
-sanjai
-surya
+avi 
+anjana
+kaviya
+swetha
 ^d
 ```
 ### Display the content of the files
